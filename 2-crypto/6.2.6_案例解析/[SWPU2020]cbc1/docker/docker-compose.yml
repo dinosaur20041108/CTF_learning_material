@@ -1,0 +1,9 @@
+version: '2'
+services:
+  cbc1:
+    build: .
+    environment:
+      - FLAG=DASCTF{7f9b0ca29f2b9f56cad80b2b649afad8}
+    restart: always
+    ports:
+      - "9999:9999"

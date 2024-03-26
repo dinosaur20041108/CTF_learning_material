@@ -1,0 +1,5 @@
+FROM xenny/swpu_2020_cbc1
+
+ENV FLAG=DASCTF{00649ba37bb6de5269e2561ea052947d}
+EXPOSE 9999
+CMD [ "/flag.sh" ]
